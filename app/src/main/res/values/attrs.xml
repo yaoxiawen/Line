@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--弧形progress-->
+    <declare-styleable name="Progress">
+        <attr format="dimension" name="progressStrokeWidth"/>
+        <attr format="integer" name="progressStartAngle"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="boolean" name="isClockwiseAdd"/>
+    </declare-styleable>
+
+
+    <!--LineView的属性-->
+    <declare-styleable name="Line">
+        <attr format="color" name="lineColor"/>
+        <attr format="color" name="lineStartColor"/>
+        <attr format="color" name="lineEndColor"/>
+        <attr format="dimension" name="lineStrokeWidth"/>
+        <attr format="boolean" name="lineRound"/>
+        <attr format="integer" name="lineType">
+            <flag name="dashLine" value="0"/>
+            <flag name="straightLine" value="1"/>
+            <flag name="arrow" value="2"/>
+            <flag name="rightAngleArrow" value="3"/>
+            <flag name="tabLine" value="4"/>
+            <flag name="loadingLine" value="5"/>
+            <flag name="progressBar" value="6"/>
+        </attr>
+        <attr format="integer" name="lineOrientation">
+            <flag name="horizontal" value="0"/>
+            <flag name="vertical" value="1"/>
+            <flag name="rising" value="2"/>
+            <flag name="decling" value="3"/>
+        </attr>
+        <attr format="dimension" name="dashWidth"/>
+        <attr format="dimension" name="dashGap"/>
+        <attr format="integer" name="dashStyle">
+            <flag name="lineStyle" value="0"/>
+            <flag name="circleStyle" value="1"/>
+            <flag name="rectStyle" value="2"/>
+            <flag name="rhombusStyle" value="3"/>
+        </attr>
+        <attr format="integer" name="lineNum"/>
+        <attr format="dimension" name="lineInterval"/>
+        <attr format="integer" name="arrowOrientation">
+            <flag name="left" value="0"/>
+            <flag name="top" value="1"/>
+            <flag name="right" value="2"/>
+            <flag name="bottom" value="3"/>
+        </attr>
+        <attr format="boolean" name="arrowRound"/>
+        <attr format="integer" name="tabNum"/>
+        <attr format="integer" name="tabPosition"/>
+        <attr format="color" name="tabColor"/>
+        <attr format="color" name="tabStartColor"/>
+        <attr format="color" name="tabEndColor"/>
+        <attr format="dimension" name="tabWidth"/>
+        <attr format="dimension" name="tabGap"/>
+        <attr format="boolean" name="tabRound"/>
+        <attr format="integer" name="tabLocation">
+            <flag name="top" value="0"/>
+            <flag name="center" value="1"/>
+            <flag name="bottom" value="2"/>
+        </attr>
+        <attr format="integer" name="tabOffset"/>
+        <attr format="boolean" name="switchTabAnim"/>
+        <attr format="integer" name="switchTabAnimDuration"/>
+        <attr format="integer" name="loadingType">
+            <flag name="line" value="0"/>
+            <flag name="circle" value="1"/>
+        </attr>
+        <attr format="integer" name="loadingStartPosition">
+            <flag name="left" value="0"/>
+            <flag name="center" value="1"/>
+        </attr>
+        <attr format="float" name="loadingStartAngle"/>
+        <attr format="float" name="loadingSweepAngle"/>
+        <attr format="boolean" name="loadingClockwise"/>
+        <attr format="integer" name="loadingDuration"/>
+        <attr format="integer" name="loadingCount"/>
+        <attr format="integer" name="progressType">
+            <flag name="line" value="0"/>
+            <flag name="circle" value="1"/>
+        </attr>
+        <attr format="float" name="progressMax"/>
+        <attr format="float" name="progressValue"/>
+        <attr format="float" name="progressSecondaryValue"/>
+        <attr format="color" name="progressBackgroundColor"/>
+        <attr format="color" name="progressSecondaryColor"/>
+        <attr format="dimension" name="progressBackgroundWidth"/>
+        <attr format="dimension" name="progressSecondaryWidth"/>
+        <attr format="boolean" name="progressBackgroundRound"/>
+        <attr format="boolean" name="progressSecondaryRound"/>
+        <attr format="float" name="progressCircleStartAngle"/>
+        <attr format="boolean" name="progressClockwise"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="orange">#FFA500</color>
+    <color name="fireBrick">#B22222</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#666666</color>
+    <color name="grey1C">#1C1C1C</color>
+    <color name="greyF0">#F0F0F0</color>
+    <color name="grey333">#333333</color>
+    <color name="grey444">#444444</color>
+    <color name="grey666">#666666</color>
+    <color name="grey999">#999999</color>
+    <color name="grey1E">#1E1E1E</color>
+    <color name="greyEA">#EAEAEA</color>
+    <color name="olive">#808000</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="navajoWhite">#FFDEAD</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="seaGreen">#43CD80</color>
+    <color name="oliveDrab">#C0FF3E</color>
+    <color name="black">#000000</color>
+</resources>

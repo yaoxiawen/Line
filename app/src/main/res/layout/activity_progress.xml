@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:arcp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <com.line.Progress
+            android:id="@+id/arc_progress_one"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/fireBrick"
+            arcp:progressStartAngle="-90"
+            />
+
+        <TextView
+            android:id="@+id/arc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <com.line.Progress
+        android:id="@+id/arc_progress_two"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@color/orange"
+        arcp:isClockwiseAdd="false"
+        arcp:progressColor="@color/khaki"
+        arcp:progressStartAngle="0"
+        arcp:progressStrokeWidth="10dp"
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:background="@color/seaGreen"
+        >
+
+        <com.line.Progress
+            android:id="@+id/arc_progress_three"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            arcp:isClockwiseAdd="true"
+            arcp:progressColor="@color/oliveDrab"
+            arcp:progressStartAngle="0"
+            arcp:progressStrokeWidth="3dp"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:background="@color/seaGreen"
+        >
+
+        <com.line.Progress
+            android:id="@+id/arc_progress_four"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            arcp:isClockwiseAdd="true"
+            arcp:progressColor="@color/oliveDrab"
+            arcp:progressStartAngle="0"
+            arcp:progressStrokeWidth="3dp"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="420dp"
+        android:background="@color/seaGreen"
+        >
+
+        <com.line.Progress
+            android:id="@+id/arc_progress_five"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            arcp:isClockwiseAdd="true"
+            arcp:progressColor="@color/oliveDrab"
+            arcp:progressStartAngle="0"
+            arcp:progressStrokeWidth="3dp"
+            />
+    </FrameLayout>
+
+</FrameLayout>
