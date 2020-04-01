@@ -15,8 +15,6 @@ import androidx.annotation.ColorInt;
 
 public class UiUtils {
 
-    private static final String PREFER_NAME = "KLUI";
-
     public static Application sApplication;
 
     public static void init(Application app) {
@@ -144,14 +142,5 @@ public class UiUtils {
         int slashIndex = url.lastIndexOf('/');
         return dotIndex != -1 && dotIndex > slashIndex && dotIndex + 2 + 4 > url.length()
                 ? url.substring(dotIndex + 1) : "";
-    }
-
-    private static SharedPreferences preferences;
-
-    public static SharedPreferences getPreferences(Activity activity) {
-        if (preferences == null) {
-            preferences = activity.getSharedPreferences(PREFER_NAME, Activity.MODE_PRIVATE);
-        }
-        return preferences;
     }
 }
